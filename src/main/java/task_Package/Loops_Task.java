@@ -21,6 +21,8 @@ public class Loops_Task {
 		 * Output: 2,4,6,8,10,12
 		 */
 
+		
+		//Updated from the Legion
 
 	}
 
