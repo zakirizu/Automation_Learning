@@ -23,7 +23,7 @@ public class Loops_Task {
 
 		
 		//Updated from the Legion
-
+		//Updated again from the Junior
 	}
 
 	private static void Task01() {
