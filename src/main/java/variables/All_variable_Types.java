@@ -1,6 +1,6 @@
-package java_Learning;
+package variables;
 
-public class VariableTypes {	
+public class All_variable_Types {	
 	//Instance Variable
 	int a = 10;
 	int b = 5;
@@ -10,7 +10,7 @@ public class VariableTypes {
 	static int y = 2;
 	
 	public static void main(String[] args) {
-		VariableTypes mathsOpertaions = new VariableTypes();
+		All_variable_Types mathsOpertaions = new All_variable_Types();
 		mathsOpertaions.addition();
 		mathsOpertaions.subtraction();
 		mathsOpertaions.multiplication();
@@ -40,5 +40,3 @@ public class VariableTypes {
 		System.out.println("Product: " + product);//50
 	}
 }
-
-

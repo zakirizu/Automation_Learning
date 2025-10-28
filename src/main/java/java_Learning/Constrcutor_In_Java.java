@@ -1,18 +1,17 @@
 package java_Learning;
 
-public class AritheMeticOperations {
-	
+public class Constrcutor_In_Java {	
 	int a;
 	int b;
-	/*
-	 * Constructor
-Method it has name exactly same as class Name
-It will be called automatically when ever you are creating a object for that class
-It will not have any return type
-	 */
+	/** 
+	  Constructor
+		Method it has name exactly same as class Name
+		It will be called automatically when ever you are creating a object for that class
+		It will not have any return type
+	 **/
 	
 	public static void main(String[] args) {
-		AritheMeticOperations obj = new AritheMeticOperations();
+		Constrcutor_In_Java obj = new Constrcutor_In_Java();
 		obj.addition();
 		obj.subtraction();
 		obj.multiplication();
@@ -38,6 +37,5 @@ It will not have any return type
 		int c = a * b;
 		System.out.println("Multiplication Method " +c);
 	}
-	
 
 }

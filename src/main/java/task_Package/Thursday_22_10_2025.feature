@@ -1,4 +1,4 @@
-Team-Homi J. Bhabha
+#Team-Homi J. Bhabha
 Topic : Data Type. With Examples Focus on Array with Good Example.
 Imran 
 Javeria
@@ -13,7 +13,7 @@ Lokesh
 Shafi
 
 
-Team-A. P. J. Abdul Kalam
+#Team-A. P. J. Abdul Kalam
 Topic: Variable Types with Examples
 Vineela
 Shalfi 

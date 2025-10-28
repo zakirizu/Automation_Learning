@@ -1,6 +1,6 @@
-package java_Learning;
+package variables;
 
-public class DefaultVariablesTypes {
+public class Defafult_Values_Of_Varibles{
 	//Instance Variable ->//No Need to initiliaze value
 //Primitive Data Types
 byte byteValue;
@@ -18,7 +18,7 @@ String stringValue;
 int[] intArray;
 
 	public static void main(String[] args) {
-		DefaultVariablesTypes obj = new DefaultVariablesTypes();
+		Defafult_Values_Of_Varibles obj = new Defafult_Values_Of_Varibles();
 		obj.DefaultValuesPrinter();
 }
 
