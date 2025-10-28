@@ -13,3 +13,4 @@ public class Bitwise_Operators {
         System.out.println("a >> 1: " + (a >> 1)); // 2  (Right Shift)
     }
 }
+//Not so commonlu used

@@ -1,6 +1,6 @@
-package java_Learning;
+package static_NonStatic_Methods;
 
-public class MethodTypes {
+public class All_MethodTypes {
 	//Class can have Many Methods. But Java will run the code only from Main Method
 	//There are two types of Methods 
 		//Static 
@@ -10,7 +10,7 @@ public class MethodTypes {
 		addition();
 		//Syntax to create a Object
 		//ClassName ObjecNmae = new CLassName();
-		MethodTypes obj     = new MethodTypes();
+		All_MethodTypes obj     = new All_MethodTypes();
 		obj.subraction();
 		obj.Multiply();		
 	}
