@@ -19,10 +19,8 @@ public class ArithmeticOperations {
 		return a * b;
 	}
 	
-	public double divide(int a, int b) {
-		return (double) a / b;
-	}
 
+	//ZAKIR new code 
 	
 	
 }
