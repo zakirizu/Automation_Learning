@@ -11,16 +11,17 @@ public class Alpha_Inheritance {
 	}
 		
 	public  void home() {
-		System.out.println("Home");
+		System.out.println("Kurnool");
 	}
 	
 	public  void vehicle() {
 		System.out.println("Nexon Car");
 	}
 	
-	public  void addition() {
-		int sum = 3+7;
-		System.out.println("Sum in Parent "+sum);
+	public  void multiplication(int a, int b) {
+		int mul = 4*3;
+		System.out.println("Parent Multiplication: " +mul);	
+		
 	}
 	
 	
