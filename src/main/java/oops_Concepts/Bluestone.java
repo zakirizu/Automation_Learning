@@ -1,14 +1,20 @@
 package oops_Concepts;
 
-public class Bluestone {
+abstract class Bluestone {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
-	}
 	public static void multiplicaiton() {
 		System.out.println("Test");
-		
 	}
+	
+	public static void multi33plicaiton() {
+		System.out.println("Test");
+	}
+	
+	public static void multip333licaiton() {
+		System.out.println("Test");
+	}
+	
+	public abstract void addition();
 
 }
