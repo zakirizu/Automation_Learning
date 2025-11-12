@@ -21,7 +21,7 @@ public class ArrayList_Java {
 		int length = alist.size();
 		System.out.println("Size of the ArrayList is "+length);
 		
-	//Using for each loop for getting the values from Arraylist
+	   //Using for each loop for getting the values from Arraylist
 		for(String x : alist) {
 			System.out.println(x);			
 		}
