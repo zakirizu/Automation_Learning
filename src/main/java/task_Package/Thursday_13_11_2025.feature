@@ -1,25 +1,27 @@
+
 #Team-Homi J. Bhabha
-Topic : Method Overloading , Data Type. With Examples Focus on Array with Good Example.
-Vineela
+Topic : Select class with Multip selec drop down list, Method Overloading ,
+ Data Type. With Examples Focus on Array with Good Example.
+ 
+Imran
 Shalfi 
 Aman
 
 
 #Team-Vikram Sarabhai
-Topic:Inheritance and Constructors with Examples
-Imran 
+Topic:Alerts in Seenium , ArrayList, Inheritance and Constructors with Examples
+Lokesh
 Javeria
-Chintu Godfre
+Mahendra 
 
 
 #Team-A. P. J. Abdul Kalam
-Topic: Operators in Java & Variable Types with Examples
+Topic: Xpaths , Actions Class , and functions Operators in Java & Variable Types with Examples
 Ruhi
-Lokesh
+Vineela
 Shafi
 
 
-Open this URL : https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
 
 
 
