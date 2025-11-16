@@ -10,6 +10,7 @@ public class Collections_HashSet {
 	set.add("Python");
 	set.add("C++");
 	set.add("JavaScript");
+	
 	System.out.println(set);
 	
 	for(String lang : set) {
