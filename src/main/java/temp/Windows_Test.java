@@ -12,7 +12,8 @@ public class Windows_Test {
 	//Start off with the Set in java
 	//Compare with List vs Set in java 
 	//Talk about Quit and Close
-	//
+	//Limiting the scope of Search on the webPage. 
+	//Question Click on all the links in the footer of instagram page and print the title of each page.
 
 	public static void main(String[] args) throws InterruptedException {
 		WebDriver driver = new ChromeDriver();
