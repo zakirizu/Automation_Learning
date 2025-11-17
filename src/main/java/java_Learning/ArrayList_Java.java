@@ -8,12 +8,32 @@ public class ArrayList_Java {
 		//Syntax to create an ArrayList
 		ArrayList<String> alist = new ArrayList<>();
 		
+		
 		//Adding Values to the ArrayList
 		alist.add("Apple");
 		alist.add("Boy");
 		alist.add("Cat");
+		alist.add("Cat");
 		alist.add("Dog");
 		
+		System.out.println(alist);
+		
+		int len = alist.size();
+		
+		for(int i=0; i<len; i++)
+		{
+			String temp = alist.get(i);
+			System.out.println(temp);
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		/*
 		//Direclty Printing the ArrayList
 		System.out.println(alist);
 		
@@ -31,7 +51,7 @@ public class ArrayList_Java {
 		String temp = alist.get(3);
 		System.out.println("Priting by Giving the Index "+temp);
 		
-
+*/
 	}
 
 }
