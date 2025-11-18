@@ -8,12 +8,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class WebTables_Selenium {
-
-	
 	//table[@name='BookTable']//tr  - Rows
 	//table[@name='BookTable']//tr[1]//th - Columns
-	
-	
 	public static void main(String[] args) throws InterruptedException {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://testautomationpractice.blogspot.com/");
