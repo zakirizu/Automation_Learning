@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="7" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-24T08:35:48 IST" name="Default suite" finished-at="2025-11-24T08:35:48 IST" duration-ms="56">
+    <groups>
+    </groups>
+    <test started-at="2025-11-24T08:35:48 IST" name="Default test" finished-at="2025-11-24T08:35:48 IST" duration-ms="56">
+      <class name="automation.TestNG_Enable_Priorty_DependentOn">
+        <test-method signature="placingOrder()[pri:0, instance:automation.TestNG_Enable_Priorty_DependentOn@7530ad9c]" started-at="2025-11-24T08:35:48 IST" name="placingOrder" finished-at="2025-11-24T08:35:48 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placingOrder -->
+        <test-method signature="orderNotification()[pri:0, instance:automation.TestNG_Enable_Priorty_DependentOn@7530ad9c]" started-at="2025-11-24T08:35:48 IST" name="orderNotification" finished-at="2025-11-24T08:35:48 IST" depends-on-methods="automation.TestNG_Enable_Priorty_DependentOn.placingOrder" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderNotification -->
+        <test-method signature="Cat()[pri:1, instance:automation.TestNG_Enable_Priorty_DependentOn@7530ad9c]" started-at="2025-11-24T08:35:48 IST" name="Cat" finished-at="2025-11-24T08:35:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cat -->
+        <test-method signature="Boy(java.lang.String,java.lang.String)[pri:2, instance:automation.TestNG_Enable_Priorty_DependentOn@7530ad9c]" started-at="2025-11-24T08:35:48 IST" name="Boy" data-provider="ValidLoginData" finished-at="2025-11-24T08:35:48 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[userName01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PassWord01]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Boy -->
+        <test-method signature="Boy(java.lang.String,java.lang.String)[pri:2, instance:automation.TestNG_Enable_Priorty_DependentOn@7530ad9c]" started-at="2025-11-24T08:35:48 IST" name="Boy" data-provider="ValidLoginData" finished-at="2025-11-24T08:35:48 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[userName01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PassWord01]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Boy -->
+        <test-method signature="Apple()[pri:4, instance:automation.TestNG_Enable_Priorty_DependentOn@7530ad9c]" started-at="2025-11-24T08:35:48 IST" name="Apple" finished-at="2025-11-24T08:35:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Apple -->
+      </class> <!-- automation.TestNG_Enable_Priorty_DependentOn -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
