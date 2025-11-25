@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="automation.TestNG_Enable_Priorty_DependentOn">
+      <class name="automation.Waits_Selenium">
         <methods>
-          <include name="Boy"/>
+          <include name="implicitWaitExample"/>
         </methods>
-      </class> <!-- automation.TestNG_Enable_Priorty_DependentOn -->
+      </class> <!-- automation.Waits_Selenium -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

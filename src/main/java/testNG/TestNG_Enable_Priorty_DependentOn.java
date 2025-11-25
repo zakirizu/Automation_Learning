@@ -1,4 +1,4 @@
-package automation;
+package testNG;
 
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
