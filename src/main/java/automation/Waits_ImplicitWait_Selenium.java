@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 import io.cucumber.java.Before;
 
-public class Waits_Selenium {
+public class Waits_ImplicitWait_Selenium {
 	
 	WebDriver driver;
 		
