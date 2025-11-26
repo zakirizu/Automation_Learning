@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="yet_To_Teach.ExplicitWait_Selenium">
+      <class name="automation.Synchronization_Waits">
         <methods>
-          <include name="TestCase_With_explicitWaitExample"/>
+          <include name="withOutWaits"/>
         </methods>
-      </class> <!-- yet_To_Teach.ExplicitWait_Selenium -->
+      </class> <!-- automation.Synchronization_Waits -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

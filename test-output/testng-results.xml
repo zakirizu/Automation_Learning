@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-26T07:12:20 IST" name="Default suite" finished-at="2025-11-26T07:13:47 IST" duration-ms="86664">
+  <suite started-at="2025-11-26T08:31:20 IST" name="Default suite" finished-at="2025-11-26T08:32:52 IST" duration-ms="91322">
     <groups>
     </groups>
-    <test started-at="2025-11-26T07:12:20 IST" name="Default test" finished-at="2025-11-26T07:13:47 IST" duration-ms="86664">
-      <class name="yet_To_Teach.ExplicitWait_Selenium">
-        <test-method signature="TestCase_WithOut_explicitWaitExample()[pri:0, instance:yet_To_Teach.ExplicitWait_Selenium@69453e37]" started-at="2025-11-26T07:12:20 IST" name="TestCase_WithOut_explicitWaitExample" finished-at="2025-11-26T07:13:24 IST" duration-ms="63691" status="PASS">
+    <test started-at="2025-11-26T08:31:20 IST" name="Default test" finished-at="2025-11-26T08:32:52 IST" duration-ms="91322">
+      <class name="automation.Synchronization_Waits">
+        <test-method signature="withOutWaits()[pri:0, instance:automation.Synchronization_Waits@3fc2959f]" started-at="2025-11-26T08:31:20 IST" name="withOutWaits" finished-at="2025-11-26T08:32:23 IST" duration-ms="62951" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestCase_WithOut_explicitWaitExample -->
-        <test-method signature="TestCase_With_explicitWaitExample()[pri:0, instance:yet_To_Teach.ExplicitWait_Selenium@69453e37]" started-at="2025-11-26T07:13:24 IST" name="TestCase_With_explicitWaitExample" finished-at="2025-11-26T07:13:47 IST" duration-ms="22944" status="PASS">
+        </test-method> <!-- withOutWaits -->
+        <test-method signature="withWaits()[pri:0, instance:automation.Synchronization_Waits@3fc2959f]" started-at="2025-11-26T08:32:23 IST" name="withWaits" finished-at="2025-11-26T08:32:52 IST" duration-ms="28310" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestCase_With_explicitWaitExample -->
-      </class> <!-- yet_To_Teach.ExplicitWait_Selenium -->
+        </test-method> <!-- withWaits -->
+      </class> <!-- automation.Synchronization_Waits -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
