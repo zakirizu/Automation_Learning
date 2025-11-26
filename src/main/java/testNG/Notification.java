@@ -2,7 +2,7 @@ package testNG;
 
 import org.testng.annotations.Test;
 
-public class Notificaiton {
+public class Notification {
 	
 	@Test
 	public void MobileNotifcaiton() {
@@ -14,4 +14,13 @@ public class Notificaiton {
 		System.out.println("Email Notification");
 	}
 
+	@Test
+	public void PushNotification() {
+		System.out.println("Push Notification");
+	}
+	
+	@Test
+	public void SMSNotification() {
+		System.out.println("SMS Notification");
+	}
 }

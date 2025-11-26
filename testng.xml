@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="BlueStone.Automation_Learning.AppTest"/>
+      <class name="testNG.Notification"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
