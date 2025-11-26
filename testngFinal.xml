@@ -3,7 +3,17 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="testNG.Notification"/>
+    
+		<class name="testNG.Notification">
+			<methods>
+				<include name="EmailNotificaiton"></include>
+			</methods>
+		</class>		
+		
+		
+		<class name="testNG.OrderPlacement"></class>	
+		<class name="testNG.Search"></class>
+		
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
