@@ -1,21 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-26T08:31:20 IST" name="Default suite" finished-at="2025-11-26T08:32:52 IST" duration-ms="91322">
+  <suite started-at="2025-12-05T07:48:41 IST" name="Default suite" finished-at="2025-12-05T07:49:35 IST" duration-ms="53439">
     <groups>
     </groups>
-    <test started-at="2025-11-26T08:31:20 IST" name="Default test" finished-at="2025-11-26T08:32:52 IST" duration-ms="91322">
-      <class name="automation.Synchronization_Waits">
-        <test-method signature="withOutWaits()[pri:0, instance:automation.Synchronization_Waits@3fc2959f]" started-at="2025-11-26T08:31:20 IST" name="withOutWaits" finished-at="2025-11-26T08:32:23 IST" duration-ms="62951" status="PASS">
+    <test started-at="2025-12-05T07:48:41 IST" name="Default test" finished-at="2025-12-05T07:49:35 IST" duration-ms="53439">
+      <class name="automation.WithoutPageObjectModel">
+        <test-method is-config="true" signature="setup()[pri:0, instance:automation.WithoutPageObjectModel@185a6e9]" started-at="2025-12-05T07:48:41 IST" name="setup" finished-at="2025-12-05T07:48:48 IST" duration-ms="6617" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- withOutWaits -->
-        <test-method signature="withWaits()[pri:0, instance:automation.Synchronization_Waits@3fc2959f]" started-at="2025-11-26T08:32:23 IST" name="withWaits" finished-at="2025-11-26T08:32:52 IST" duration-ms="28310" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="Admin_TestCase()[pri:0, instance:automation.WithoutPageObjectModel@185a6e9]" started-at="2025-12-05T07:48:48 IST" name="Admin_TestCase" finished-at="2025-12-05T07:48:52 IST" duration-ms="4495" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- withWaits -->
-      </class> <!-- automation.Synchronization_Waits -->
+        </test-method> <!-- Admin_TestCase -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.WithoutPageObjectModel@185a6e9]" started-at="2025-12-05T07:48:52 IST" name="tearDown" finished-at="2025-12-05T07:48:57 IST" duration-ms="4446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:automation.WithoutPageObjectModel@185a6e9]" started-at="2025-12-05T07:48:57 IST" name="setup" finished-at="2025-12-05T07:49:01 IST" duration-ms="3897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Leave_TestCase()[pri:0, instance:automation.WithoutPageObjectModel@185a6e9]" started-at="2025-12-05T07:49:01 IST" name="Leave_TestCase" finished-at="2025-12-05T07:49:04 IST" duration-ms="3398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Leave_TestCase -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.WithoutPageObjectModel@185a6e9]" started-at="2025-12-05T07:49:04 IST" name="tearDown" finished-at="2025-12-05T07:49:08 IST" duration-ms="4397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:automation.WithoutPageObjectModel@185a6e9]" started-at="2025-12-05T07:49:08 IST" name="setup" finished-at="2025-12-05T07:49:12 IST" duration-ms="3646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="PIM_TestCase()[pri:0, instance:automation.WithoutPageObjectModel@185a6e9]" started-at="2025-12-05T07:49:12 IST" name="PIM_TestCase" finished-at="2025-12-05T07:49:17 IST" duration-ms="4504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PIM_TestCase -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.WithoutPageObjectModel@185a6e9]" started-at="2025-12-05T07:49:17 IST" name="tearDown" finished-at="2025-12-05T07:49:21 IST" duration-ms="4423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:automation.WithoutPageObjectModel@185a6e9]" started-at="2025-12-05T07:49:21 IST" name="setup" finished-at="2025-12-05T07:49:26 IST" duration-ms="4985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Time_TestCase()[pri:0, instance:automation.WithoutPageObjectModel@185a6e9]" started-at="2025-12-05T07:49:26 IST" name="Time_TestCase" finished-at="2025-12-05T07:49:30 IST" duration-ms="4078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Time_TestCase -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:automation.WithoutPageObjectModel@185a6e9]" started-at="2025-12-05T07:49:30 IST" name="tearDown" finished-at="2025-12-05T07:49:35 IST" duration-ms="4474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- automation.WithoutPageObjectModel -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
