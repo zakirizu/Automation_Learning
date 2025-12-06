@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="automation.Synchronization_Waits">
+      <class name="automation.Search_Flipkart">
         <methods>
-          <include name="withOutWaits"/>
+          <include name="setup"/>
+          <include name="voiceSearch"/>
+          <include name="searchFlipkart"/>
         </methods>
-      </class> <!-- automation.Synchronization_Waits -->
+      </class> <!-- automation.Search_Flipkart -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
